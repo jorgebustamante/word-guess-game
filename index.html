@@ -1,0 +1,45 @@
+<!doctype <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Word Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body style="background-image: url(assets/images/rainbow.gif); background-repeat: repeat;">
+    <div class="container">
+        <img id="title-image" src="assets/images/sun.gif" alt="sun" />
+        <div class="row">
+            <div class="col-md-6 gameplay-column">
+                <img id="winimg" src="assets/images/cat.gif" alt="win" />
+                <img id="lossimg" src="assets/images/cowboy.jpg" alt="loss" />
+                <h2 id="pressKeyTryAgain"> Press key to play again!</h2>
+            </div>
+            <div class="col-lg-6 gameplay-column">
+                <div class="card">
+                    <div class="card-body">
+                            <div class="card-header">
+                                    <h3>Press the keys to start the game!</h3>
+                                  </div>
+                        <h2>guess a color on the rainbow!</h2>
+                        <h4>Wins</h4>
+                        <h4 id="totalWins"></h4>
+                        <h4>Current Word</h4>
+                        <h4 id="currentWord"></h4>
+                        <h4>Lives left</h4>
+                        <h4 id="livesLeft"></h4>
+                        <h4>Letters Guessed</h4>
+                        <h4 id="guessedLetters"></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
